@@ -24,4 +24,12 @@ describe "lib/board.rb" do
   
     expect(board.size).to eq(9) 
   end
+
+  it '`board` is an array with 9 strings with an empty space value, " "' do
+    file_scope = binding
+    file_scope.eval(File.read("./lib/board.rb"))
+    board = file_scope.local_variable_get("board")
+  
+    expect(board).to match_array([" "," "," "," "," "," "," "," "," "])
+  end  
 end
