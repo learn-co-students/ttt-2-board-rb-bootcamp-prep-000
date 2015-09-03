@@ -1,35 +1,25 @@
-require 'pry'
-
 describe "lib/board.rb" do
   it 'defines a local variable `board`' do
-    file_scope = binding
-    file_scope.eval(File.read("./lib/board.rb"))
-    board = file_scope.local_variable_get("board")
-
+    board = get_variable_from_file("./lib/board.rb", "board")
+    
     expect(board).to_not be_nil
   end
 
   it '`board` is set to an array' do
-    file_scope = binding
-    file_scope.eval(File.read("./lib/board.rb"))
-    board = file_scope.local_variable_get("board")
+    board = get_variable_from_file("./lib/board.rb", "board")
 
     expect(board).to be_a(Array)
   end
 
   it '`board` is an array with 9 elements' do
-    file_scope = binding
-    file_scope.eval(File.read("./lib/board.rb"))
-    board = file_scope.local_variable_get("board")
-  
+    board = get_variable_from_file("./lib/board.rb", "board")
+
     expect(board.size).to eq(9) 
   end
 
   it '`board` is an array with 9 strings with an empty space value, " "' do
-    file_scope = binding
-    file_scope.eval(File.read("./lib/board.rb"))
-    board = file_scope.local_variable_get("board")
-  
+    board = get_variable_from_file("./lib/board.rb", "board")  
+
     expect(board).to match_array([" "," "," "," "," "," "," "," "," "])
   end  
 end
