@@ -36,7 +36,24 @@ This is super useful because it will eventually allow players to easily tell the
    |   |
 ```
 
-ASCII just means using standard keyboard characters, also known as the ASCII character set, to draw graphics. 
+ASCII just means using standard keyboard characters, also known as the ASCII character set, to draw graphics.
+
+An ASCII Cat:
+
+```
+/\     /\
+{  `---'  }
+{  O   O  }
+~~>  V  <~~
+ \  \|/  /
+  `-----'__
+  /     \  `^\_
+ {       }\ |\_\_   W
+ |  \_/  |/ /  \_\_( )
+  \__/  /(_O     \__/
+    (  /
+     ME
+```
 
 ### Representing the Board as an Array
 
