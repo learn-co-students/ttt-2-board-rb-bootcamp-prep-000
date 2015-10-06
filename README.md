@@ -36,6 +36,25 @@ This is super useful because it will eventually allow players to easily tell the
    |   |
 ```
 
+ASCII just means using standard keyboard characters, also known as the ASCII character set, to draw graphics.
+
+An ASCII Cat:
+
+```
+/\     /\
+{  `---'  }
+{  O   O  }
+~~>  V  <~~
+ \  \|/  /
+  `-----'__
+  /     \  `^\_
+ {       }\ |\_\_   W
+ |  \_/  |/ /  \_\_( )
+  \__/  /(_O     \__/
+    (  /
+     ME
+```
+
 ### Representing the Board as an Array
 
 Now that we have simplified the concept of a Tic Tac Toe board to a collection of 9 positions or cells, easily identified by number, how can we represent this in code? What tool do we have at our disposable that can represent a collection of things? Is there some magical way to store data in ruby as an ordered, indexed, list? If you're thinking "We can use an Array!", you're absolutely right.
