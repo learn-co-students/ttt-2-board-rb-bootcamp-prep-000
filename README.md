@@ -96,3 +96,5 @@ row #=> [" ", "X", " "]
 3. Fill the `board` array with 9 empty strings: `" "`.
 4. Run `learn` and read output and fix any errors.
 5. Submit your solution with `learn submit`.
+
+<a href='https://learn.co/lessons/ttt-2-board-rb' data-visibility='hidden'>View this lesson on Learn.co</a>
