@@ -1,1 +1,5 @@
-# Define the variable board below.
+#defining local variable
+
+"board"
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
