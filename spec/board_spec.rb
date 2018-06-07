@@ -17,4 +17,8 @@ describe "lib/board.rb" do
     expect(board.size).to eq(9) 
   end
 
+
+board[" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board[1] = "X"
+
   
