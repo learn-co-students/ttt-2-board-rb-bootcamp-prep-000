@@ -1,4 +1,9 @@
 # Define the variable board below.
 
-pos = " "
-board = [pos,pos,pos,pos,pos,pos,pos,pos,pos]
+counter = 0
+board = []
+
+while counter < 9
+  board[counter] = " "
+  counter += 1
+end
