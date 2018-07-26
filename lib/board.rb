@@ -1,2 +1,5 @@
 # Define the variable board below.
-board = [" "," "," ", " "," "," ", " "," "," "]
+board = []
+(1..9).each do
+  board << " "
+end
