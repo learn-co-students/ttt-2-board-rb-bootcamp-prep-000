@@ -1,5 +1,5 @@
-"board"
+var = "board"
 
-Array = "board"
+board = "Array"
 
 board = [" ", " ", " ", " ", " " , " ", " ", " ", " "]
